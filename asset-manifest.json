@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SkinnySydPF/static/css/main.99f33c46.css",
-    "main.js": "/SkinnySydPF/static/js/main.095a5e3a.js",
+    "main.css": "/SkinnySydPF/static/css/main.c2acca77.css",
+    "main.js": "/SkinnySydPF/static/js/main.3bbb18c3.js",
     "index.html": "/SkinnySydPF/index.html",
-    "main.99f33c46.css.map": "/SkinnySydPF/static/css/main.99f33c46.css.map",
-    "main.095a5e3a.js.map": "/SkinnySydPF/static/js/main.095a5e3a.js.map"
+    "main.c2acca77.css.map": "/SkinnySydPF/static/css/main.c2acca77.css.map",
+    "main.3bbb18c3.js.map": "/SkinnySydPF/static/js/main.3bbb18c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.99f33c46.css",
-    "static/js/main.095a5e3a.js"
+    "static/css/main.c2acca77.css",
+    "static/js/main.3bbb18c3.js"
   ]
 }
