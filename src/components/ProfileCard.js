@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, MapPin, Download, Facebook, Twitter, Instagram, Linkedin, Github, Flag } from 'lucide-react';
+import { sizeHeight } from '@mui/system';
 
 const ProfileCard = () => {
   return (
@@ -45,7 +46,13 @@ const ProfileCard = () => {
           </div>
           <div className="info-item">
             <span>STATUS</span>
-            <p>🥑</p>
+            <p>
+                <img 
+                    src="https://res.cloudinary.com/dsq1xkg4o/image/upload/v1726796072/edfm8xtov1u0zazlucm9.png" 
+                    alt="my road to nirv..." 
+                    className="status-icon" 
+                />
+            </p>
           </div>
         </div>
       </div>

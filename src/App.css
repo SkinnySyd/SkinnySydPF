@@ -60,6 +60,8 @@ body {
   margin-right: 16px;
   position: relative; /* Allows for relative positioning of the image wrapper */
   margin-top: -50px;
+  box-shadow: -3px -3px  1px #11182742
+
 
 }
 
@@ -324,4 +326,27 @@ body {
   }
 }
 
+.status-icon {
+  width: 20px; /* Adjust the size as needed */
+  height: 20px; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align the icon with the text */
+  margin-left: 10px;
+  border-radius: 50%; /* Optional: make it circular */
+  animation: glow 0.7s infinite alternate; /* Apply the glow animation */
+}
+
+/* Keyframes for the glow effect */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7), 0 0 20px rgba(255, 255, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 1), 0 0 30px rgba(255, 255, 0, 0.5);
+  }
+}
+
+/* Optional: Adding transition for smoothness */
+.status-icon {
+  transition: box-shadow 0.1s ease; /* Smooth transition effect */
+}
 
